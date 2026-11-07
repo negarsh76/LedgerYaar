@@ -1,0 +1,41 @@
+# Gradle / build
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
+out/
+
+# Android
+local.properties
+*.apk
+*.aab
+*.keystore
+*.jks
+google-services.json
+
+# iOS
+Pods/
+Podfile.lock
+*.xcworkspace
+xcuserdata/
+DerivedData/
+*.ipa
+GoogleService-Info.plist
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS / misc
+.DS_Store
+._*
+*.log
+*.zip
+*.rar
+node_modules/
